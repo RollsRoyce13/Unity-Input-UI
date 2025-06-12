@@ -31,7 +31,7 @@ namespace Animations
             StopTween();
             
             _tween = _rectTransform.DOAnchorPosY(endYPosition, duration)
-                .SetEase(Ease.Linear)
+                .SetEase(easeType)
                 .OnComplete(() => Debug.Log("Credits finished."));
         }
     }
