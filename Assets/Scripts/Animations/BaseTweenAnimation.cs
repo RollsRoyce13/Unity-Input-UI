@@ -16,7 +16,7 @@ namespace Animations
             StopTween();
         }
 		
-        protected void StopTween()
+        public void StopTween()
         {
             if (_tween != null && _tween.IsActive())
             {

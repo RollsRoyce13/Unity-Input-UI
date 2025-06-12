@@ -1,5 +1,5 @@
 {
-    "name": "Test Task Upscale Studio",
+    "name": "PlayerInput",
     "maps": [
         {
             "name": "Player",
@@ -282,6 +282,24 @@
                     "name": "Cancel",
                     "type": "Button",
                     "id": "ffe3eeff-0a79-43f2-9a7d-fd3de74588ed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShoulderLeft",
+                    "type": "Button",
+                    "id": "5145b00b-e3c9-4338-a5f6-42a36ee152d9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShoulderRight",
+                    "type": "Button",
+                    "id": "5b681cbe-fbaa-49b3-8256-fc3d146ba69e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -767,6 +785,50 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41d44f3c-66a4-44a7-abd1-b383cda4aa31",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;Joystick",
+                    "action": "ShoulderLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "82db8366-4d7a-4a9d-8e25-cc7031f88891",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ShoulderLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e87242f-d034-4830-9d78-2d4bbfb096a0",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;Joystick",
+                    "action": "ShoulderRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc5102aa-d064-48cd-8e6f-274a5bcfc823",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ShoulderRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
