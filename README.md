@@ -1,78 +1,72 @@
-# 🎮 Unity UI System — Інтерфейс з підтримкою геймпада та клавіатури
+# 🎮 Unity UI System — Interface with Gamepad and Keyboard Support
 
-> **Версія Unity:** `2021.3.45f1`
-
----
-
-## 🔧 Основні можливості
-
-- 🎯 **Raycast Target** увімкнено **лише** для інтерактивних UI елементів.
-- 📋 Кнопки **головного меню** організовані через `Vertical Layout Group`.
-- 📂 Скрипт `ScreensController` для відкриття/закриття екранів — легко розширювати.
-- 🧱 **Prefabs** основних елементів інтерфейсу — швидке редагування та повторне використання.
-- 💡 **HintText Prefab** — підказки змінюються в залежності від пристрою вводу.
-- 🎞️ Анімації з **DoTween**, усі скрипти наслідуються від `BaseTweenAnimation`.
-- 🎚️ В налаштуваннях перемикання між панелями:
-  - Контролер: `L1` / `R1`
-  - Клавіатура: `Q` / `E`
-- 📜 **Credits** реалізовані через `Scroll View`  
-  _(Текст згенеровано за допомогою ChatGPT 🧠)_
+> **Unity Version:** `2021.3.45f1`
 
 ---
 
-## 🎮 Підтримка вводу
+## 🔧 Key Features
 
-- ✅ Перевірено з клавіатурою, мишею та **DualSense** геймпадом.
-- 🖱️ Курсор миші показується **лише при активному режимі клавіатура + миша**.
-- 🔄 Автоматичне перемикання між пристроями введення.
-- 🔁 Підказки змінюються в залежності від активного типу вводу.
-
----
-
-## 🔊 Аудіо
-
-- 🎵 Додано **фонову музику** та **звуки натискань**.
-- 🔈 Усе можна вмикати/вимикати в **налаштуваннях**.
-- 💾 Налаштування зберігаються через `PlayerPrefs`.
-
----
-
-## 📦 Збірка
-
-📁 [Google Drive](https://drive.google.com/drive/folders/17fp5iOGiaGjzDsqylRo2yoQmyFzbwUGL?usp=sharing) прикріплено готовий архів та `.exe` файл для швидкого запуску демо-версії проєкту без компіляції.
+- 🎯 **Raycast Target** is enabled **only** for interactive UI elements.
+- 📋 **Main menu** buttons are organized using a `Vertical Layout Group`.
+- 📂 `ScreensController` script for opening/closing screens — easy to extend.
+- 🧱 **Prefabs** for core UI elements — fast editing and reuse.
+- 💡 **HintText Prefab** — hints change depending on the input device.
+- 🎞️ Animations with **DoTween**, all scripts inherit from `BaseTweenAnimation`.
+- 🎚️ In the settings, switch panels using:
+  - Controller: `L1` / `R1`
+  - Keyboard: `Q` / `E`
+- 📜 **Credits** implemented via `Scroll View`  
+  _(Text generated with ChatGPT 🧠)_
 
 ---
 
-## 💡 Натхнення
+## 🎮 Input Support
 
-> UI натхнення з ігор:
+- ✅ Tested with keyboard, mouse, and **DualSense** gamepad.
+- 🖱️ Mouse cursor is shown **only in keyboard + mouse mode**.
+- 🔄 Automatic switching between input devices.
+- 🔁 Hints update according to the active input type.
+
+---
+
+## 🔊 Audio
+
+- 🎵 Includes **background music** and **button click sounds**.
+- 🔈 All sounds can be toggled on/off in **Settings**.
+- 💾 Settings are saved using `PlayerPrefs`.
+
+---
+
+## 💡 Inspiration
+
+> UI inspiration from:
 
 - *The Last of Us Part II*
 - *Silent Hill 2*
 
 ---
 
-## 📺 Відео
+## 📺 Videos
 
-🔗 [Тест DualSense контроллера на YouTube (відео без звуку)](https://youtu.be/B9ItjZRMb1w)  
-_(Перемикання типу контролера при старті гри + автоматичні підказки кнопок)_
+🔗 [DualSense controller test on YouTube (no audio)](https://youtu.be/B9ItjZRMb1w)  
+_(Switching controller type at game start + automatic button hints)_
 
-🔗 [Тест .exe файлу на ПК на YouTube (відео із звуком)](https://youtu.be/aE7dOZwPmGg)
+🔗 [Keyboard & Mouse test on YouTube (with audio)](https://youtu.be/aE7dOZwPmGg)
 
 ---
 
-## 🎼 Фонова музика
+## 🎼 Background Music
 
 - **The Marble Cinematic University — Ezra Lipp**
 
 ---
 
-## 🔤 Шрифти
+## 🔤 Fonts
 
 - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
 
 ---
 
-## 🧩 Сторонні ресурси
+## 🧩 Third-Party Assets
 
-- 🎮 [GamePad і Keyboard іконки для TextMesh Pro](https://assetstore.unity.com/packages/2d/gui/icons/gamepad-and-keyboard-input-sprites-for-textmesh-pro-310114)
+- 🎮 [GamePad and Keyboard Icons for TextMesh Pro](https://assetstore.unity.com/packages/2d/gui/icons/gamepad-and-keyboard-input-sprites-for-textmesh-pro-310114)
